@@ -11,8 +11,7 @@ class App extends Component {
     clickedArray: [],
     topScore: 0,
     score: 0,
-    message: "",
-    shakeit: "false"
+    message: ""
   };
   clickPicture = id => {
     // Arrange the pictures in a random manner
@@ -20,21 +19,19 @@ class App extends Component {
     this.setState({cards: shuffledArray});
     // if clicked an image already clicked set this.state.score = 0; empty clickeadArray, end of if block
     if (this.state.clickedArray.includes(id)) {
-      this.setState({ score: 0, clickedArray: [], message: "Nope. Click to restart", shakeit: "true"});
+      this.setState({ score: 0, clickedArray: [], message: "Nope. Click to restart"});
     }
     else {
       this.setState({
         clickedArray: this.state.clickedArray.concat([id]),
         score: this.state.score + 1,
-        message: "Good -- Keep going",
-        shakeit: "false"
+        message: "Good -- Keep going"
       });
     }
     // set topscore = score if score>topscore.
     if (this.state.score > this.state.topScore) {
       this.setState({ topScore: this.state.score });
     }
-    // shake the wrapper if shakeit is set to true
   }
   shuffleArray = (picturesArray) => {
       for (let i = picturesArray.length - 1; i > 0; i--) {
@@ -52,7 +49,6 @@ class App extends Component {
           <p className="message"><strong>{this.state.message}</strong></p>
         </h3>
         <Wrapper
-        shakeWrapper = {this.state.shakeit}
         pictures=
           {this.state.cards.map(picture => (
             <PictureCard
@@ -64,11 +60,6 @@ class App extends Component {
             />
           ))}
         />
-        <footer className="footer">
-      <div className="container">
-        <span className="text-muted">&Clicky Food</span>
-      </div>
-    </footer> 
       </div>
     );
   }

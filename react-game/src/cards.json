@@ -26,52 +26,38 @@
     },
     {
       "id": 6,
-      "name": "Doug Funnie",
-      "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-      "occupation": "Student",
-      "location": "Bluffington"
+      "name": "Sandwich",
+      "image": "https://i7.pngguru.com/preview/652/652/900/5bbc0335cfae7.jpg"
     },
     {
       "id": 7,
-      "name": "Bugs Bunny",
-      "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-      "occupation": "Looney Toon",
-      "location": "A Rabbit Burrow"
+      "name": "Burger",
+      "image": "https://i7.pngguru.com/preview/989/1009/206/hamburger-burgers-vector-euclidean-vector-burger-png-vector-clipart.jpg"
     },
     {
       "id": 8,
-      "name": "Johnny Bravo",
-      "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-      "occupation": "Ladies Man",
-      "location": "Aron City"
+      "name": "Fries",
+      "image": "https://i7.pngguru.com/preview/232/714/350/french-fries-frying-french-fries.jpg"
     },
     {
       "id": 9,
-      "name": "Tommy Pickles",
-      "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-      "occupation": "Adventurer",
-      "location": "California"
+      "name": "Salad",
+      "image": "https://i7.pngguru.com/preview/793/592/988/greek-salad-caesar-salad-israeli-salad-spinach-salad-fattoush-egg-salad.jpg"
     },
     {
       "id": 10,
-      "name": "Rocko",
-      "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-      "occupation": "Cashier",
-      "location": "O-Town, California"
+      "name": "Ribs",
+      "image": "https://i7.pngguru.com/preview/175/88/901/spare-ribs-barbecue-grill-barbecue-sauce-barbecue-chicken-grill.jpg"
     },
     {
       "id": 11,
-      "name": "Captain Planet",
-      "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-      "occupation": "Superhero",
-      "location": "Earth"
+      "name": "Cheese",
+      "image": "https://i7.pngguru.com/preview/219/12/30/gruyere-cheese-swiss-cheese-yellow-cheese.jpg"
     },
     {
       "id": 12,
-      "name": "Ickis",
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-      "occupation": "Ahhhh! A Real Monster!",
-      "location": "Under a City Dump"
+      "name": "Wine",
+      "image": "https://i7.pngguru.com/preview/366/743/693/red-wine-wine-glass-wine-cocktail-white-wine-pour-wine.jpg"
     }
   ]
   
